@@ -200,9 +200,9 @@ namespace ElmahCore.Assertions
         {
         }
 
-        protected DataBindingException(SerializationInfo info, StreamingContext context) :
-            base(info, context)
-        {
-        }
+        //protected DataBindingException(SerializationInfo info, StreamingContext context) :
+        //    base(info, context)
+        //{
+        //}
     }
 }
