@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Version>2.1.2</Version>
-    <PackageProjectUrl>https://github.com/ElmahCoreEx/ElmahCoreEx</PackageProjectUrl>
-    <AssemblyVersion>2.1.2.0</AssemblyVersion>
-    <FileVersion>2.1.2.0</FileVersion>
+    <Version>2.1.4</Version>
+    <PackageProjectUrl>https://github.com/ekimtaf/ElmahCoreEx</PackageProjectUrl>
+    <AssemblyVersion>2.1.4.0</AssemblyVersion>
+    <FileVersion>2.1.4.0</FileVersion>
     <AssemblyName>ElmahCore.MySql</AssemblyName>
-    <PackageId>ElmahCoreEx.MySql</PackageId>
+    <PackageId>Ekimtaf.ElmahCoreEx.MySql</PackageId>
     <NeutralLanguage>en-001</NeutralLanguage>
     <RepositoryUrl>https://www.nuget.org/packages/ElmahCoreEx</RepositoryUrl>
     <PackageTags>net-core elmah mvc-core asp-net-core asp-net-core-mvc elmah-core netcore netcore2 netcore20 mvc mvc6 aspnetcore aspnetcoremvc</PackageTags>
