@@ -2,10 +2,10 @@
 
 	<PropertyGroup>
 		<LangVersion>default</LangVersion>
-		<Version>2.1.2</Version>
+		<Version>2.1.4</Version>
 		<PackageProjectUrl>https://github.com/ekimtaf/ElmahCoreEx</PackageProjectUrl>
-		<AssemblyVersion>2.1.2.0</AssemblyVersion>
-		<FileVersion>2.1.2.0</FileVersion>
+		<AssemblyVersion>2.1.4.0</AssemblyVersion>
+		<FileVersion>2.1.4.0</FileVersion>
 		<AssemblyName>ElmahCoreEx</AssemblyName>
 		<PackageId>Ekimtaf.ElmahCoreEx.Common</PackageId>
 		<Authors>ElmahCoreEx</Authors>

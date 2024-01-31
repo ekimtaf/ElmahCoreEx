@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <Version>2.1.2</Version>
-	  <PackageProjectUrl>https://github.com/ElmahCoreEx/ElmahCoreEx</PackageProjectUrl>
-	  <AssemblyVersion>2.1.2.0</AssemblyVersion>
-	  <FileVersion>2.1.2.0</FileVersion>
+	  <Version>2.1.4</Version>
+	  <PackageProjectUrl>https://github.com/ekimtaf/ElmahCoreEx</PackageProjectUrl>
+	  <AssemblyVersion>2.1.4.0</AssemblyVersion>
+	  <FileVersion>2.1.4.0</FileVersion>
 	  <AssemblyName>ElmahCore.Sql</AssemblyName>
-	  <PackageId>ElmahCoreEx.Sql</PackageId>
+	  <PackageId>Ekimtaf.ElmahCoreEx.Sql</PackageId>
 	  <Authors>ElmahCoreEx</Authors>
 	  <Company>ElmahCoreEx</Company>
 	  <Product>ElmahCore.Sql</Product>
