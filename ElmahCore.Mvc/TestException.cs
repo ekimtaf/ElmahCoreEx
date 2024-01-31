@@ -42,9 +42,9 @@ namespace ElmahCore.Mvc
         ///     Initializes a new instance of the <see cref="TestException" /> class
         ///     with serialized data.
         /// </summary>
-        private TestException(SerializationInfo info, StreamingContext context) :
-            base(info, context)
-        {
-        }
+        //private TestException(SerializationInfo info, StreamingContext context) :
+        //    base(info, context)
+        //{
+        //}
     }
 }

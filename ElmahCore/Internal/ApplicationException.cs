@@ -41,9 +41,9 @@ namespace ElmahCore
         ///     Initializes a new instance of the <see cref="ApplicationException" /> class
         ///     with serialized data.
         /// </summary>
-        protected ApplicationException(SerializationInfo info, StreamingContext context) :
-            base(info, context)
-        {
-        }
+        //protected ApplicationException(SerializationInfo info, StreamingContext context) :
+        //    base(info, context)
+        //{
+        //}
     }
 }

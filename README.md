@@ -11,10 +11,10 @@
 
 # About
 
-This is a fork of the [ElmahCore](https://github.com/ElmahCore/ElmahCore) project, with changes for PR's that were sitting idle.
-It should be an almost slot in replacement for ElmahCore v2.1.2.
+This is a fork of the [ElmahCoreEx](https://github.com/ElmahCoreEx/ElmahCoreEx) project updated to latest .NET version
+It should be an almost slot in replacement for ElmahCoreEx v2.1.2.
 
-See [changelog.md](changelog.md) for any further changes from v2.1.2
+See [changelog.md](changelog.md) for any further changes from v2.1.3
 
 The interfaces and namespaces have been kept the same.
 

@@ -143,8 +143,8 @@ namespace ElmahCore.Mvc.Handlers
             public override IEnumerable<string> Header()
             {
                 var response = Context.Response;
-                response.Headers.Add("Content-Type", "text/csv; header=present");
-                response.Headers.Add("Content-Disposition", "attachment; filename=errorlog.csv");
+                response.Headers.Append("Content-Type", "text/csv; header=present");
+                response.Headers.Append("Content-Disposition", "attachment; filename=errorlog.csv");
                 yield return
                     "Application,Host,Time,Unix Time,Type,Source,User,Status Code,Message,URL,XMLREF,JSONREF\r\n";
             }
@@ -242,12 +242,12 @@ namespace ElmahCore.Mvc.Handlers
 
                 if (!_wrapped)
                 {
-                    response.Headers.Add("Content-Type", "text/javascript");
-                    response.Headers.Add("Content-Disposition", "attachment; filename=errorlog.js");
+                    response.Headers.Append("Content-Type", "text/javascript");
+                    response.Headers.Append("Content-Disposition", "attachment; filename=errorlog.js");
                 }
                 else
                 {
-                    response.Headers.Add("Content-Type", "text/html");
+                    response.Headers.Append("Content-Type", "text/html");
 
                     yield return
                         "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">";
